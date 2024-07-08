@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+
+<head>
+    <!-- #region CSS Links -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link href="./css/output.css" rel="stylesheet">
+    <!-- #endregion CSS Links -->
+
+    <!-- #region Font Links -->
+
+    <!-- #endregion Font Links -->
+
+    <!-- #region Proj. Info. -->
+    <title>Egyptian Party</title>
+    <!-- #endregion Proj. Info. -->
+
+</head>
+
+<body class="">
+    <header>
+        <nav>
+            <div class="nav bg-slate-800 w-48 h-full fixed p-5">
+                <ul class="space-y-3">
+                    <li class="text-right cursor-pointer"><i class="text-white fa-solid fa-xmark"></i></li>
+                    <li><a class="nav-item" href="#home">Home</a></li>
+                    <li><a class="nav-item" href="#counter">Duration</a></li>
+                    <li><a class="nav-item" href="#singers">Details</a></li>
+                    <li><a class="nav-item" href="#contact-us">Contact</a></li>
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+
+    <main class="overflow-x-hidden">
+        <section id="home" class="overflow-hidden w-full h-lvh bg-cover bg-[url('../imgs/events-heavenly-header.jpg')] bg-fixed">
+            <div class="w-full h-full relative bg-slate-900 bg-opacity-80 flex justify-center items-center">
+                <i class="nav-btn ms-2 fa-solid fa-bars fa-2xl absolute top-1/2 -translate-y-1/2 left-1 text-slate-100 cursor-pointer"></i>
+
+                <div class="home-content  text-center">
+                    <h1 class="font-extrabold font-mono text-7xl text-slate-100 ">Egyptian Party</h1>
+                    <h5 class="font-mono  text-slate-100 ">Let's have fun</h5>    
+                </div>
+               
+                <!-- scroll -->
+                <span class="loader"></span>
+            </div>
+        </section>
+        <section id="singers" class=" py-10">
+            <div class="accordion text-center w-1/2  mx-auto ">
+                <button class="singer singer-btn">Amr Diab</button>
+                <p class="singer-info singer-info-area">Amr Abdel Basset Abdel Azeez Diab born 11 October 1961 is an Egyptian singer, composer and actor.He has established himself as a globally acclaimed recording artist and author.He is a Guinness World Record holder, the best selling Middle Eastern artist, a seven-times winner of World Music Awards and five-times winner of Platinum Records.</p>
+                <button class="singer singer-btn">Tamer Ashour</button>
+                <p class="singer-info singer-info-area hidden">also spelt Tamer Ashour or Tamer Ashur, born 2 January 1984 is an Egyptian singer and composer. From 2004 to 2011 he released more than 17 songs and 4 albums.</p>
+                <button class="singer singer-btn">Ramy Gamal</button>
+                <p class="singer-info singer-info-area hidden">Ramy Gamal Abdel Wahab El-Feki (born July 25, 1984) is an Egyptian singer and composer.He began his singing career in 2011 and released 6 albums in addition to many singles.
+                He won the 2013 Mima International Award as the best young singer in the Middle East</p>
+                <button class="singer singer-btn">Mohamed Hamaki</button>
+                <p class="singer-info singer-info-area hidden">Mohamed Ibrahim Mohamed El Hamaki  born 4 November 1975 is an Egyptian singer. In 2010, he won the "Best Arabia Act" award from MTV Europe Music Awards and the Music Award in 2006, for "Ahla Haga Fiki". He was a coach at the fifth season of The Voice Ahla Sawt in 2019.</p>
+            </div>
+        </section>
+        <section id="counter" class="w-full bg-[url('../imgs/invitation-2508607__340.jpg')] bg-no-repeat bg-cover ">
+            <div class="w-full h-full count-down bg-slate-900 bg-opacity-80 py-32 text-center">
+                <p class="text-4xl text-white font-mono mb-14 font-bold">The event will start in</p>
+                <div class="w-4/5 mx-auto text-center grid grid-cols-4 gap-10 max-sm:grid-cols-1">
+                    <h4 class="days count-item after:content-['D']"></h4>
+                    <h4 class="hours count-item after:content-['H']"></h4>
+                    <h4 class="minutes count-item after:content-['M']"></h4>
+                    <h4 class="seconds count-item after:content-['S']"></h4>
+                </div>
+            </div>
+        </section>
+        <section id="contact-us" class="w-4/5 mx-auto py-7 text-slate-800">
+            <div class="text-center mb-4">
+                <h3 class="font-mono text-4xl font-extrabold">Join Us</h3>
+                <p>Let's Have Fun</p>
+            </div>
+            
+            <div class="flex *:w-1/2 max-sm:flex-col max-sm:*:w-full gap-4">
+                <div class="space-y-4">
+                    <h3 class="text-4xl font-bold">Contact Info</h3>
+                    <p>To request a refund for a completed payment, you’ll need to contact the seller.</p>
+                    <ul>
+                        <li><span><i class="me-2 fa-solid fa-location-dot"></i> </span>New Street 22545, Nexa Road, New York City, USA</li>
+                        <li><span><i class="me-2 fa-solid fa-envelope"></i></span> hello@uigrid.com</li>
+                        <li><span><i class="me-2 fa-solid fa-phone"></i></span> 001-000-000-000</li>
+                    </ul>
+                    <ul class="flex gap-4">
+                        <li><i class="social-icon fa-brands fa-facebook-f"></i></li>
+                        <li><i class="social-icon fa-brands fa-twitter"></i></li>
+                        <li><i class="social-icon fa-brands fa-instagram"></i></li>
+                        <li><i class="social-icon fa-brands fa-dribbble"></i></li>
+                        <li><i class="social-icon fa-brands fa-pinterest-p"></i></li>
+                    </ul>
+                </div>
+                <div class="space-y-4">
+                    <input  placeholder="Enter Name" class="focus:outline-yellow-200 w-full border p-1" type="text">
+                    <input placeholder="Enter Email"  class="focus:outline-yellow-200 w-full border p-1" type="text">
+                    <textarea maxlength="100"  placeholder="Enter Message" class="focus:outline-yellow-200 w-full border p-1" name="" id="" cols="25" rows="9"></textarea>
+                    <h3><span class="text-lg text-red-600 remaining-chars">100</span> character remaining</h3>
+                    <button class="submit btn-darkblue">Book</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
